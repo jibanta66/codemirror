@@ -74,14 +74,16 @@ function App() {
           }}
         />
       </div>
+    </div>
+    <><div className="button-container">
+        <button onClick={runCode}>Run</button>
+      </div>
       <div className="editor output">
         <h2>Output</h2>
         <iframe id="output-frame" title="Output" />
       </div>
-      <div className="button-container">
-        <button onClick={runCode}>Run</button>
-      </div>
-    </div></>
+     
+      </></>
 
 
 
